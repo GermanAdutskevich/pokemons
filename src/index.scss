@@ -1,0 +1,82 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+:root{
+  --yellow: #FFCB05;
+  --blue: #3D7DCA;
+  --navy-blue: #003A70;
+}
+
+.section_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+#input-nickname{
+  border-color: var(--navy-blue);
+}
+
+.welcome_page_form{
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  justify-content: space-around;
+}
+
+.welcome_container{
+  height: 60vh;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  box-shadow: 0 0 1em #494949;
+}
+
+.form-label{
+  text-align: center;
+}
+
+.form-control{
+  margin-bottom: 15px;
+}
+
+.btn-outline-primary:hover{
+  background-color: var(--navy-blue);
+  color: var(--yellow);
+}
+
+section{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.list_pokemon{
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+  width: 100vw;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.single_pokemon{
+  text-align: center;
+}
+
+.pokemon_img{
+  height: 100px;
+  width: 100px;
+  background-color: var(--blue);
+  border-radius: 25px;
+}
+
+
