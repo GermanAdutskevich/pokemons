@@ -27,13 +27,19 @@
 }
 
 .welcome_container{
-  height: 60vh;
-  width: 50vw;
+  
+  height: 70vh;
+  width: 90vw;
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
   box-shadow: 0 0 1em #494949;
+
+@media screen and (min-width: 800px){
+  height: 60vh;
+  width: 50vw;
+}
 }
 
 .form-label{
@@ -77,6 +83,15 @@ section{
   width: 100px;
   background-color: var(--blue);
   border-radius: 25px;
+  @media screen and (min-width: 600px) and (max-width: 1300px) {
+    height: 20vh;
+    width: 20vw;
+  }
+  @media screen and (min-width: 1300px) {
+    height: 30vh;
+    width: 15vw;
+;
+  }
 }
 
 
